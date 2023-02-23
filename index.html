@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Educational Website</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/ff7689a9a2.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar background">
+        <div id="logo">
+            <img src="img/logo2.png" alt="logo">
+            <h1>Education Hub</h1>
+        </div>
+        <ul class="navlist resp">
+            <li class="navcommon"><a href="#">Home</a></li>
+            <li class="navcommon"><a href="#firstcontent">Courses</a></li>
+            <li class="navcommon"><a href="#secondcontent">Notes</a></li>
+            <li class="navcommon"><a href="#thirdcontent">Lectures</a></li>
+            <li class="navcommon"><a href="#contactsection">Contact</a></li>
+        </ul>
+        <div id="search">
+            <input type="text" name="searching" class="searching resp" placeholder="Search Here">
+            <button type="submit" class="commonbtn resp" id="navbutton">Search</button>
+        </div>
+        <div class="hamburger" onclick="myFunction()">
+            <a href="javascript:void(0);">
+                <i class="fa fa-bars"></i>
+                Menu
+            </a>
+        </div>
+    </nav>
+    <section class="background" id="intro">
+        <div class="commonsection" id="introsection">
+            <div class="commoncontent">
+                <h2>Future of Education</h2>
+                <p>As the world we live in changes to embrace tech futures, how and what we teach in our education
+                    system will also be reshaped to keep up to date with the growing demands of the 21st
+                    century.Nowadays there are many things such as videos, text transcripts, audio, and presentations
+                    are being used as educational resources. .</p>
+                <div id="btn">
+                    <button type="submit" class="commonbtn">Subscribe</button>
+                    <button type="submit" class="commonbtn">Watch Video</button>
+                </div>
+
+            </div>
+            <div class="commonimage">
+                <img src="img/src1.jpg" alt="intro1">
+            </div>
+        </div>
+    </section>
+
+    <section class="commonsection" id="firstcontent">
+        <div class="commoncontent">
+            <h2>Courses</h2>
+            <p>Online courses are educational + training programs conducted through a website. You can view and learn
+                your preferred course on a mobile device, computer, or laptop. Students, housewives, and working
+                professionals make the most of online courses. The course allows you to access the study material
+                anytime and anywhere.Students can embark on their desired careers and enjoy learning sessions via the
+                most in-demand online courses 2023.</p>
+        </div>
+        <div class="commonimage">
+            <img src="img/src2.webp" alt="">
+        </div>
+    </section>
+
+    <section class="commonsection" id="secondcontent">
+        <div class="commonimage">
+            <img src="img/src3.avif" alt="">
+        </div>
+        <div class="commoncontent" id="leftcontent">
+            <h2>Excess to Notes</h2>
+            <p>Ensure that you are punctual to your lectures and choose a convenient spot to sit. Students are often put
+                off when their favourite corner of the lecture hall has already been taken. Choose a spot that makes you
+                comfortable and feel part of the lecture. For me, I prefer the second or third row. I often find it
+                difficult to concentrate at the backseats. They remind me of those noisy backbenchers in high school who
+                chuckled and contrived pranks to be used on teachers and fellow students!</p>
+        </div>
+
+    </section>
+
+    <section class="commonsection" id="thirdcontent">
+        <div class="commoncontent">
+            <h2>Lectures</h2>
+            <p>Teaching is the mirror that reflects the research done to inform one’s teaching practice. What makes a
+                great teacher? Globally, university teaching is often dismissed by academics as being secondary to
+                research.Teaching is an essential part of the fabric of academic life. The young minds of today are the
+                researchers of tomorrow. Without good teaching, the future of research is not sustainable.</p>
+        </div>
+        <div class="commonimage">
+            <img src="img/src4.webp" alt="">
+        </div>
+    </section>
+
+    <section id="contactsection">
+        <h1>Contact Us</h1>
+        <form action="/" id="contact">
+            <input type="text" name="name" id="" placeholder="Enter Name">
+            <input type="email" name="email" id="" placeholder="Enter Email">
+            <textarea name="commnet" id="" cols="30" rows="10" placeholder="Comment Here"></textarea>
+            <button type="submit" class="commonbtn">Submit</button>
+        </form>
+    </section>
+
+    <footer id="foot">
+        Copyright &#169; | All Rights Reserved
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
